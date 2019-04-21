@@ -80,9 +80,7 @@ dependencies {
     compile group: 'org.jsoup', name: 'jsoup', version: '1.11.2'
     // https://mvnrepository.com/artifact/com.google.guava/guava
 //    compile group: 'com.google.guava', name: 'guava', version: '18.0'
-
-
-    compileOnly 'org.projectlombok:lombok'
+    
 }
 
 

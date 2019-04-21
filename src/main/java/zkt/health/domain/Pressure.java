@@ -21,9 +21,19 @@ public class Pressure {
     private Integer pressureLow;
     @Column(name = "PRESSURE_CONDITION")
     private String pressureCondition;
+    @Column(name = "PRESSURE_USER_ID")
+    private Integer userId;
 
     public Integer getPressureId() {
         return pressureId;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public void setPressureId(Integer pressureId) {
